@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+
+    <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
+</head>
+
+<body>
+    <p class="heading">Expense Tracker</p>
+    <p class="subheading">Add a new item:</p>
+    <div class="inputs">
+        Name: <input type="text" id="name" placeholder="Where was the expense made?">
+        Date: <input type="date" id="date">
+        Amount: <input type="number" min="1" id="amt">
+    </div>
+    <button id="addBtn">Add Expense</button>
+    <table>
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th></th>
+            </tr>
+        </tbody>
+        <tbody id="tdata">
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
